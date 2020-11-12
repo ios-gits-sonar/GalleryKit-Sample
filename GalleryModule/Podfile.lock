@@ -1,0 +1,114 @@
+PODS:
+  - Alamofire (5.2.2)
+  - ChameleonFramework (2.1.0):
+    - ChameleonFramework/Default (= 2.1.0)
+  - ChameleonFramework/Default (2.1.0)
+  - collection-view-layouts/Core (0.1.2)
+  - collection-view-layouts/PinterestLayout (0.1.2):
+    - collection-view-layouts/Core
+  - FLAnimatedImage (1.0.12)
+  - GalleryModule (1.0.0):
+    - GITSFramework
+    - Shimmer
+    - TOCropViewController
+  - GITSFramework (2.0.0):
+    - Alamofire
+    - ChameleonFramework
+    - collection-view-layouts/PinterestLayout
+    - GrowingTextView
+    - IGListKit
+    - IQKeyboardManager
+    - M13Checkbox
+    - Material
+    - PureLayout
+    - SDWebImage
+    - SDWebImage/GIF
+    - SwiftMessages
+    - SwiftyJSON
+    - UIColor_Hex_Swift
+  - GrowingTextView (0.7.2)
+  - IGListDiffKit (4.0.0)
+  - IGListKit (4.0.0):
+    - IGListDiffKit (= 4.0.0)
+  - IQKeyboardManager (6.5.6)
+  - M13Checkbox (3.4.0)
+  - Material (3.1.8):
+    - Material/Core (= 3.1.8)
+  - Material/Core (3.1.8):
+    - Motion (~> 3.1.1)
+  - Motion (3.1.3):
+    - Motion/Core (= 3.1.3)
+  - Motion/Core (3.1.3)
+  - PureLayout (3.1.6)
+  - SDWebImage (4.4.8):
+    - SDWebImage/Core (= 4.4.8)
+  - SDWebImage/Core (4.4.8)
+  - SDWebImage/GIF (4.4.8):
+    - FLAnimatedImage (~> 1.0)
+    - SDWebImage/Core
+  - Shimmer (1.0.2)
+  - SwiftMessages (8.0.2):
+    - SwiftMessages/App (= 8.0.2)
+  - SwiftMessages/App (8.0.2)
+  - SwiftyJSON (5.0.0)
+  - TOCropViewController (2.5.5)
+  - UIColor_Hex_Swift (5.1.0)
+
+DEPENDENCIES:
+  - GalleryModule (from `../GalleryModule`)
+  - GITSFramework (from `../GITSFramework`)
+  - Shimmer
+  - TOCropViewController
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - ChameleonFramework
+    - collection-view-layouts
+    - FLAnimatedImage
+    - GrowingTextView
+    - IGListDiffKit
+    - IGListKit
+    - IQKeyboardManager
+    - M13Checkbox
+    - Material
+    - Motion
+    - PureLayout
+    - SDWebImage
+    - Shimmer
+    - SwiftMessages
+    - SwiftyJSON
+    - TOCropViewController
+    - UIColor_Hex_Swift
+
+EXTERNAL SOURCES:
+  GalleryModule:
+    :path: "../GalleryModule"
+  GITSFramework:
+    :path: "../GITSFramework"
+
+SPEC CHECKSUMS:
+  Alamofire: 814429acc853c6c54ff123fc3d2ef66803823ce0
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  collection-view-layouts: f3da16bf3211ecb885bb3e45160c2267edf5b65e
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  GalleryModule: 1340a9efe7dc6f25a602d90ee1a0108f216133eb
+  GITSFramework: 4f706bf3d145b18514e599c2fd3eec1213fa1300
+  GrowingTextView: 876bf42005b5e4a4fd740597db12caaf41f0fe6c
+  IGListDiffKit: 665d6cf43ce726e676013db9c7d6c4294259b6b2
+  IGListKit: fd5a5d21935298f5849fa49d426843cff97b77c7
+  IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
+  M13Checkbox: 6f59404540ac98ba83a3d1afac335895a40c6a5d
+  Material: a2a3f400a3b549d53ef89e56c58c4535b29db387
+  Motion: cf1e060e489f6661126374d5c60dbd2ed991605c
+  PureLayout: bd3c4ec3a3819ad387c99ebb72c6b129c3ed4d2d
+  SDWebImage: 783af2c3fa36291a250030c4752ee370a9a51d13
+  Shimmer: c5374be1c2b0c9e292fb05b339a513cf291cac86
+  SwiftMessages: 633304165351b8e3dcbb81a71f8efcd86f9c1669
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  TOCropViewController: da59f531f8ac8a94ef6d6c0fc34009350f9e8bfe
+  UIColor_Hex_Swift: 8be7432edacb7fa91c78aa05ef3c30b66e4f9415
+
+PODFILE CHECKSUM: e180da292a88325d6ae72e7a6b6ccde5a64612b1
+
+COCOAPODS: 1.9.3
